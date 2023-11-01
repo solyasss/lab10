@@ -1,0 +1,40 @@
+.heart_1 {
+    animation: heart_1 0.6s infinite;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    float:right;
+}
+.heart_2 {
+    animation: heart_2 0.6s infinite;
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    float: right;
+}
+@keyframes heart_1 {
+    0% {
+        transform: scale(1.1);
+    }   
+    75% {
+        transform: scale(1);
+    }
+    100% {  
+        transform: scale(1.1);
+    }
+}
+@keyframes heart_2 {
+    0% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
